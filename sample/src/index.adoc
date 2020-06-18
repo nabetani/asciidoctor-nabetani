@@ -26,3 +26,6 @@
 include::line-wrap.adoc[]
 
 include::xref.adoc[]
+
+include::horz-dlist.adoc[]
+

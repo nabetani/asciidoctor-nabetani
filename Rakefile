@@ -11,6 +11,7 @@ task :pdf do
     -r asciidoctor/nabetani/prawn-linewrap-ja
     -r asciidoctor/nabetani/abstractblock-xreftext
     -r asciidoctor/nabetani/pdf-custom-property
+    -r asciidoctor/nabetani/horz-dlist
     sample/src/index.adoc
     -o sample/book.pdf
   ]
