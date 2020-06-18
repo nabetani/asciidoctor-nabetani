@@ -1,7 +1,3 @@
 :pdf-style: sample/src/theme.yml
 
-== hoge
-
-fuga
-
-piyo
+include::line-wrap.adoc[]
