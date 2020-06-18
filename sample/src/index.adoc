@@ -4,7 +4,20 @@
 :pdf-style: sample/src/theme.yml
 
 :doctitle: asciidoctor-nabetani sample
-:pdf_title: Custom PDF Title
+
+// タイトル
+:pdf_title: PDF Title
+// 作成者
+:pdf_author: PDF Author
+// サブタイトル
+:pdf_subject: PDF Subject
+// キーワード
+:pdf_keywords: PDF Keywords
+// PDF変換 (例: Acrobat Distiller)
+:pdf_producer: n/a
+// アプリケーション (例: FrameMaker 6.0)
+:pdf_creator: Asciidoctor with asciidoctor-nabetani
+
 
 :sectnums:
 :toc-title: 目次
