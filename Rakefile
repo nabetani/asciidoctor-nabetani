@@ -12,6 +12,7 @@ task :pdf do
     -r asciidoctor/nabetani/abstractblock-xreftext
     -r asciidoctor/nabetani/pdf-custom-property
     -r asciidoctor/nabetani/horz-dlist
+    -r asciidoctor/nabetani/pdf-outline
     sample/src/index.adoc
     -o sample/book.pdf
   ]
