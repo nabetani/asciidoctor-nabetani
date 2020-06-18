@@ -3,4 +3,15 @@ require "rspec/core/rake_task"
 
 RSpec::Core::RakeTask.new(:spec)
 
-task :default => :spec
+desc 'Create Sample PDF'
+task :pdf do
+  cmd = %W[
+    asciidoctor-pdf
+    -r asciidoctor-pdf-cjk-kai_gen_gothic
+    sample/src/index.adoc
+    -o sample/book.pdf
+  ]
+  sh cmd.join(' ')
+end
+
+task default: :spec
