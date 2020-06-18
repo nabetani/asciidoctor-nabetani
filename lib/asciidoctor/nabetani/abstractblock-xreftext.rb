@@ -1,3 +1,7 @@
+# frozen_string_literal: true
+
+require "asciidoctor"
+
 module Asciidoctor
   class Section < AbstractBlock
     def xreftext xrefstyle = nil
