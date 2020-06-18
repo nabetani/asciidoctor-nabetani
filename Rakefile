@@ -10,6 +10,7 @@ task :pdf do
     -r asciidoctor-pdf-cjk-kai_gen_gothic
     -r asciidoctor/nabetani/prawn-linewrap-ja
     -r asciidoctor/nabetani/abstractblock-xreftext
+    -r asciidoctor/nabetani/pdf-custom-property
     sample/src/index.adoc
     -o sample/book.pdf
   ]

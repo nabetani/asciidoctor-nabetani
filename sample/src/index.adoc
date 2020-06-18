@@ -2,6 +2,10 @@
 :lang: ja
 :doctype: book
 :pdf-style: sample/src/theme.yml
+
+:doctitle: asciidoctor-nabetani sample
+:pdf_title: Custom PDF Title
+
 :sectnums:
 :toc-title: 目次
 :toc:
