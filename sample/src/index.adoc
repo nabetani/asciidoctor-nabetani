@@ -1,3 +1,11 @@
+:encoding: utf-8
+:lang: ja
+:doctype: book
 :pdf-style: sample/src/theme.yml
+:sectnums:
+:toc-title: 目次
+:toc:
 
 include::line-wrap.adoc[]
+
+include::xref.adoc[]

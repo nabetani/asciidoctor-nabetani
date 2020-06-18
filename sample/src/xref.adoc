@@ -1,0 +1,63 @@
+[[xref-sample]]
+== クロスリファレンスサンプル
+
+参照される側
+
+[[three-equals]]
+=== イコール3個
+
+参照される側
+
+[[four-equals]]
+==== イコール4個
+
+参照される側
+
+[[five-equals]]
+===== イコール5個
+
+参照される側
+
+[[six-equals]]
+====== イコール6個
+
+参照される側
+
+== 参照する側
+
+=== custom("[$SECT_NUMS$]. [$TITLE$]")
+
+:xrefstyle:  custom
+:xrefcustomformat: [$SECT_NUMS$]. [$TITLE$]
+
+<<xref-sample>> および <<three-equals>> および <<four-equals>> および <<five-equals>> および <<six-equals>> を参照のこと。
+
+
+(<<xref-sample>>) および (<<three-equals>>) および (<<four-equals>>) および (<<five-equals>>) および (<<six-equals>>) を参照のこと。
+
+=== full
+
+:xrefstyle: full
+
+<<xref-sample>> および <<three-equals>> および <<four-equals>> および <<five-equals>> および <<six-equals>> を参照のこと。
+
+
+(<<xref-sample>>) および (<<three-equals>>) および (<<four-equals>>) および (<<five-equals>>) および (<<six-equals>>) を参照のこと。
+
+=== short
+
+:xrefstyle: short
+
+<<xref-sample>> および <<three-equals>> および <<four-equals>> および <<five-equals>> および <<six-equals>> を参照のこと。
+
+
+(<<xref-sample>>) および (<<three-equals>>) および (<<four-equals>>) および (<<five-equals>>) および (<<six-equals>>) を参照のこと。
+
+=== basic
+
+:xrefstyle: basic
+
+<<xref-sample>> および <<three-equals>> および <<four-equals>> および <<five-equals>> および <<six-equals>> を参照のこと。
+
+
+(<<xref-sample>>) および (<<three-equals>>) および (<<four-equals>>) および (<<five-equals>>) および (<<six-equals>>) を参照のこと。
