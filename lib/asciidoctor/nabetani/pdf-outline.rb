@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "asciidoctor-pdf"
+require_relative "nabehelper"
 
 module Prawn
   class Outline
