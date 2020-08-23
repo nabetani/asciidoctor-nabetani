@@ -128,7 +128,12 @@ PDF のファイル情報の「概要」欄の項目を adoc ファイル内に
 
 `asciidoctor/nabetani/pdf-outline` を require することで有効になる。
 
-通常の asciidoctor-pdf でビルドした場合、PDF のしおり欄の先頭は 表紙になるが、この機能を有効にすると、表紙はしおりにふくまれないようになる。
+テーマの yaml に
+```
+bookmark:
+  include-title-page: false
+```
+と書くと、表紙はしおりにふくまれないようになる。
 
 
 
