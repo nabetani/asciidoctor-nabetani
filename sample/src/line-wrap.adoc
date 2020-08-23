@@ -1,0 +1,24 @@
+== 改行制御
+
+[cols="1,1,1,1"]
+|===
+|foo
+|bar
+|baz
+|qux
+
+|
+(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(m)(n)(o)(p)(q)(r)(s)(t)(u)(v)(w)(x)(y)(z)(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(m)(n)(o)(p)(q)(r)(s)(t)(u)(v)(w)(x)(y)(z)
+Oh be a fine girl, kiss me, right now, sweet!
+Oh be a fine girl, kiss me, right now, sweet!
+|
+《a》《b》《c》《d》《e》《f》《g》《h》《i》《j》《k》《l》《m》《n》《o》《p》《q》《r》《s》《t》《u》《v》《w》《x》《y》《z》《a》《b》《c》《d》《e》《f》《g》《h》《i》《j》《k》《l》《m》《n》《o》《p》《q》《r》《s》《t》《u》《v》《w》《x》《y》《z》
+|
+foo ほげふがほげふがほげふが foo bar ほげふがほげふがほげふが foo bar baz ほげふがほげふがほげふが foo bar baz qux ほげふがほげふがほげふが 
+foo bar baz qux quux ほげふがほげふがほげふが
+foo bar baz qux quux corge ほげふがほげふがほげふが
+foo bar baz qux quux corge grault ほげふがほげふがほげふが
+|
+あいうえおかきちゃーっ。あいうえおかきくちゃーっ。あいうえおかきくけちゃーっ。あいうえおかきくけこちゃーっ。あいうえおかきくけこさちゃーっ。あいうえおかきくけこさしちゃーっ。 +
+「括弧」『かっこ』【括弧】［かっこ］“クオート”〈ブラケット〉«ギュメ»。「そして三点リーダー……。」「括弧」『かっこ』【括弧】［かっこ］“クオート”〈ブラケット〉«ギュメ»。「そして三点リーダー……。」
+|===

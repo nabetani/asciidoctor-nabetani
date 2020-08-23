@@ -1,0 +1,54 @@
+== Horizontal dlist
+
+=== default
+
+[horizontal]
+Foo:: bar
+Baz Qux:: quux corge
+Grault Garply Waldo:: fred plugh xyzzy thud
+Tata Toto Tete::
+  First line +
+  Second line +
+  Third line +
+Xyzzy::
+  Long long line which can not be written in a line. So renderer should find one or some position(s) to split this line to two lines or more.
+
+=== margin-left=20, margin-bottom=0
+
+[horizontal, margin-left=20, margin-bottom=0]
+Foo:: bar
+Baz Qux:: quux corge
+Grault Garply Waldo:: fred plugh xyzzy thud
+Tata Toto Tete::
+  First line +
+  Second line +
+  Third line +
+Xyzzy::
+  Long long line which can not be written in a line. So renderer should find one or some position(s) to split this line to two lines or more.
+
+=== margin-left=0, margin-bottom=20
+
+[horizontal, margin-left=0, margin-bottom=20]
+Foo:: bar
+Baz Qux:: quux corge
+Grault Garply Waldo:: fred plugh xyzzy thud
+Tata Toto Tete::
+  First line +
+  Second line +
+  Third line +
+Xyzzy::
+  Long long line which can not be written in a line. So renderer should find one or some position(s) to split this line to two lines or more.
+
+=== margin-left=0, margin-bottom=0
+
+[horizontal, margin-left=0, margin-bottom=0]
+Foo:: bar
+Baz Qux:: quux corge
+Grault Garply Waldo:: fred plugh xyzzy thud
+Tata Toto Tete::
+  First line +
+  Second line +
+  Third line +
+Xyzzy::
+  Long long line which can not be written in a line. So renderer should find one or some position(s) to split this line to two lines or more.
+
