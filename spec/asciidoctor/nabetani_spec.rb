@@ -15,7 +15,7 @@ RSpec.describe Asciidoctor::Nabetani do
       pdf_name = File.join( here, "spec_result.pdf" )
       FileUtils.rm_f( pdf_name )
       sample_dir = File.join( here, "../../" )
-      src_adoc = "sample/src/index.adoc"
+      src_adoc = "sample/funcs/index.adoc"
       Dir.chdir( sample_dir ) do
         `bundle exec asciidoctor-pdf -r asciidoctor/nabetani/#{lib_fn} -r asciidoctor-pdf-cjk-kai_gen_gothic "#{src_adoc}" -o #{pdf_name}`
         expect(File.exist?(pdf_name)).to be true
