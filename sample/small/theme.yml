@@ -1,0 +1,74 @@
+font:
+  catalog:
+    serif:
+      normal: KaiGenGothicJP-Regular.ttf
+      italic: KaiGenGothicJP-Regular-Italic.ttf
+      bold: KaiGenGothicJP-Bold.ttf
+      bold_italic: KaiGenGothicJP-Bold-Italic.ttf
+    sans-serif:
+      normal: KaiGenGothicJP-Regular.ttf
+      italic: KaiGenGothicJP-Regular-Italic.ttf
+      bold: KaiGenGothicJP-Bold.ttf
+      bold_italic: KaiGenGothicJP-Bold-Italic.ttf
+    monospace:
+      normal: KaiGenGothicJP-Regular.ttf
+      italic: KaiGenGothicJP-Regular-Italic.ttf
+      bold: KaiGenGothicJP-Bold.ttf
+      bold_italic: KaiGenGothicJP-Bold-Italic.ttf
+  fallbacks:
+    sans-serif
+
+base:
+  align: left
+  font_color: 000000
+  font_family: sans-serif
+  font_size: 10
+  line_height_length: 15
+  line_height: $base_line_height_length / $base_font_size
+  font_size_large: round($base_font_size * 1.25)
+  font_size_small: round($base_font_size * 0.85)
+  font_size_min: $base_font_size * 0.75
+  font_style: normal
+  border_color: eeeeee
+  border_radius: 4
+  border_width: 0.5
+
+page:
+  background_color: ffffff
+  layout: portrait
+  margin: [12mm, 6mm, 15mm, 6mm] # [top,right,bottom,left]
+  size: A7
+
+title_page:
+  align: center
+  background_color: ffffff
+  title:
+    top: 20%
+    font_family: sans-serif
+    font_size: 40pt
+    font_style: bold
+    font_color: 000000
+    line_height: 2
+  subtitle:
+    font_size: 24pt
+    font_family: sans-serif
+    line_height: 1
+    margin_bottom: 9cm
+  authors:
+    font_size: 20pt
+    font_family: sans-serif
+    margin_top: $base_font_size * 1.25
+  revision:
+    font_size: 16pt
+    font_family: sans-serif
+    margin_top: $base_font_size * 1.25
+
+literal:
+  font_family: monospace
+
+code:
+  font_family: monospace
+
+bookmark:
+  include-title-page: false
+

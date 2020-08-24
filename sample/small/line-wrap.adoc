@@ -1,0 +1,16 @@
+== 改行制御
+
+=== 所謂半角括弧
+
+　 +
+　 +
+　 +
+　 +
+　 +
+　 +
+　 +
+　 +
+
+(aiiiiiiii)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(i)
+(aiiiiiiii)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(m)(n)(o)(p) +
+(biiiiiiii)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(m)(n)(o)(p) +
