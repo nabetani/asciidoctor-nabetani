@@ -27,11 +27,16 @@ GEM
       asciidoctor-pdf (~> 1.5.0.alpha.8)
     asciidoctor-pdf-cjk-kai_gen_gothic (0.1.1)
       asciidoctor-pdf-cjk (~> 0.1.2)
+    coderay (1.1.3)
     concurrent-ruby (1.1.7)
     css_parser (1.7.1)
       addressable
+    debase (0.2.4.1)
+      debase-ruby_core_source (>= 0.10.2)
+    debase-ruby_core_source (0.10.9)
     diff-lcs (1.4.4)
     hashery (2.1.2)
+    method_source (1.0.0)
     pdf-core (0.7.0)
     pdf-reader (2.4.0)
       Ascii85 (~> 1.0.0)
@@ -53,6 +58,12 @@ GEM
     prawn-templates (0.1.2)
       pdf-reader (~> 2.0)
       prawn (~> 2.2)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-doc (1.1.0)
+      pry (~> 0.11)
+      yard (~> 0.9.11)
     public_suffix (4.0.5)
     rake (12.3.3)
     rspec (3.9.0)
@@ -68,12 +79,15 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
+    ruby-debug-ide (0.7.2)
+      rake (>= 0.8.1)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
     thread_safe (0.3.6)
     treetop (1.6.10)
       polyglot (~> 0.3)
     ttfunk (1.5.1)
+    yard (0.9.25)
 
 PLATFORMS
   ruby
@@ -83,10 +97,14 @@ DEPENDENCIES
   asciidoctor-nabetani!
   asciidoctor-pdf (= 1.5.3)
   asciidoctor-pdf-cjk-kai_gen_gothic
+  debase
   prawn (= 2.2.2)
   prawn-table (= 0.2.2)
+  pry
+  pry-doc
   rake (~> 12.0)
   rspec (~> 3.0)
+  ruby-debug-ide
 
 BUNDLED WITH
    2.1.4
