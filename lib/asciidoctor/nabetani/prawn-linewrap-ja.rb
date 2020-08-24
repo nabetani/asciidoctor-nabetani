@@ -123,6 +123,12 @@ module Prawn
           end
         end
 
+        def update_line_status_based_on_last_output
+          if 1<tokenize(@fragment_output).size
+            @line_contains_more_than_one_word = true
+          end
+        end
+
         def remember_this_fragment_for_backward_looking_ops
           @previous_fragment = @fragment_output.dup
           pf = @previous_fragment
