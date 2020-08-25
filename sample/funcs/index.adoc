@@ -1,0 +1,31 @@
+:encoding: utf-8
+:lang: ja
+:doctype: book
+:pdf-style: sample/funcs/theme.yml
+
+:doctitle: asciidoctor-nabetani sample
+
+// タイトル
+:pdf_title: PDF Title
+// 作成者
+:pdf_author: PDF Author
+// サブタイトル
+:pdf_subject: PDF Subject
+// キーワード
+:pdf_keywords: PDF Keywords
+// PDF変換 (例: Acrobat Distiller)
+:pdf_producer: n/a
+// アプリケーション (例: FrameMaker 6.0)
+:pdf_creator: Asciidoctor with asciidoctor-nabetani
+
+
+:sectnums:
+:toc-title: 目次
+:toc:
+
+include::line-wrap.adoc[]
+
+include::xref.adoc[]
+
+include::horz-dlist.adoc[]
+
