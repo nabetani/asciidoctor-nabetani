@@ -1,7 +1,7 @@
 :encoding: utf-8
 :lang: ja
 :doctype: book
-:pdf-style: sample/src/theme.yml
+:pdf-style: sample/funcs/theme.yml
 
 :doctitle: asciidoctor-nabetani sample
 

@@ -87,6 +87,9 @@ module Prawn
         end
 
         def tokenize(fragment)
+          if /ち/===fragment
+            x=0
+          end
           fragment.size.times.with_object(["".clone]) do |ix,s|
             cur = fragment[ix]
             if s.last.empty?
@@ -120,6 +123,12 @@ module Prawn
             tokenize(text).last
           else
             ""
+          end
+        end
+
+        def update_line_status_based_on_last_output
+          if 1<tokenize(@fragment_output).size
+            @line_contains_more_than_one_word = true
           end
         end
 
