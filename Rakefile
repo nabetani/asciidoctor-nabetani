@@ -48,5 +48,4 @@ task :pdf_small_org do
 end
 
 task default: :spec
-task funcs: [:pdf_funcs, :pdf_funcs_org]
-task smalls: [:pdf_small, :pdf_small_org]
+task pdf_all: %i[pdf_funcs pdf_funcs_org pdf_small pdf_small_org]
