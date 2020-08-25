@@ -9,11 +9,10 @@
 　 +
 　 +
 　 +
-　 +
 
-(aiiiiiiii)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(i)
 (aiiiiiiii)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(m)(n)(o)(p) +
 (biiiiiiii)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(m)(n)(o)(p) +
+(ciiiiiiii)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(m)(n)(o)(p) +
 
 ちゃっ。ちゃっ。ちゃっ。ちゃっ。ちゃっ。ちゃっ。ちゃっ。ちゃっ。 +
 Wちゃっ。ちゃっ。ちゃっ。ちゃっ。ちゃっ。ちゃっ。ちゃっ。ちゃっ。 +
