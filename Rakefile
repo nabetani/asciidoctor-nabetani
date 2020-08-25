@@ -7,12 +7,7 @@ desc 'Create Sample PDF'
 task :pdf_funcs do
   cmd = %W[
     asciidoctor-pdf
-    -r asciidoctor-pdf-cjk-kai_gen_gothic
-    -r asciidoctor/nabetani/prawn-linewrap-ja
-    -r asciidoctor/nabetani/abstractblock-xreftext
-    -r asciidoctor/nabetani/pdf-custom-property
-    -r asciidoctor/nabetani/horz-dlist
-    -r asciidoctor/nabetani/pdf-outline
+    -r asciidoctor/nabetani
     sample/funcs/index.adoc
     -o sample/funcs.pdf
   ]
@@ -23,12 +18,7 @@ desc 'Create Small Page PDF'
 task :pdf_small do
   cmd = %W[
     asciidoctor-pdf
-    -r asciidoctor-pdf-cjk-kai_gen_gothic
-    -r asciidoctor/nabetani/prawn-linewrap-ja
-    -r asciidoctor/nabetani/abstractblock-xreftext
-    -r asciidoctor/nabetani/pdf-custom-property
-    -r asciidoctor/nabetani/horz-dlist
-    -r asciidoctor/nabetani/pdf-outline
+    -r asciidoctor/nabetani
     sample/small/index.adoc
     -o sample/small.pdf
   ]

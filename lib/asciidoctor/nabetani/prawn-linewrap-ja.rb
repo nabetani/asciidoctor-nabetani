@@ -13,33 +13,6 @@
 
 require "prawn"
 
-
-module Asciidoctor
-  module PDF
-    class Converter
-      # TODO: document me, esp the first line formatting functionality
-      def typeset_text string, line_metrics, opts = {}
-        move_down line_metrics.padding_top
-        opts = { leading: line_metrics.leading, final_gap: line_metrics.final_gap }.merge opts
-
-        # あとでちゃんとやるので、ここで ZeroWidthSpace を挟む必要はない
-        # string = string.gsub CjkLineBreakRx, ZeroWidthSpace if @cjk_line_breaks
-        if (hanging_indent = (opts.delete :hanging_indent) || 0) > 0
-          indent hanging_indent do
-            text string, (opts.merge indent_paragraphs: -hanging_indent)
-          end
-        elsif (first_line_opts = opts.delete :first_line_options)
-          # TODO: good candidate for Prawn enhancement!
-          text_with_formatted_first_line string, first_line_opts, opts
-        else
-          text string, opts
-        end
-        move_down line_metrics.padding_bottom
-      end
-    end
-  end
-end
-
 module Prawn
   module Text
     module Formatted
