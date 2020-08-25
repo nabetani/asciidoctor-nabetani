@@ -22,10 +22,13 @@ Or install it yourself as:
 $ gem install asciidoctor-nabetani
 ```
 
-
 ## Usage
 
-TODO: Write usage instructions here
+Create PDF from AsciiDoc file with this library like following:
+
+```
+$ asciidoctor-pdf -r asciidoctor/nabetani foobar.adoc -o foobar.pdf
+```
 
 ## Contributing
 
@@ -51,13 +54,9 @@ AsciiDoctor で PDF を作るときに困っていたことをなんとかした
 
 ### 禁則処理の改善
 
-`asciidoctor/nabetani/prawn-linewrap-ja` を require すると有効になる。
-
 prawn の禁則処理を本ライブラリの処理で差し替えることで、禁則処理を改善する。
 
 ### クロスリファレンス
-
-`asciidoctor/nabetani/abstractblock-xreftext` を require すると有効になる。
 
 AsciiDoc のクロスリファレンスで
 
@@ -90,8 +89,6 @@ AsciiDoc のクロスリファレンスで
 
 ### horizontal な定義リスト
 
-`asciidoctor/nabetani/horz-dlist` を require すると有効になる。
-
 horizontal な定義リストで
 ```
 [horizontal, margin-left=20, margin-bottom=10]
@@ -102,8 +99,6 @@ Baz Qux:: quux corge
 指定する数字の単位は PDF point だと思う。
 
 ### PDF のプロパティ
-
-`asciidoctor/nabetani/pdf-custom-property` を require すると有効になる。
 
 PDF のファイル情報の「概要」欄の項目を adoc ファイル内に
 
@@ -126,18 +121,9 @@ PDF のファイル情報の「概要」欄の項目を adoc ファイル内に
 
 ### PDF のしおり(outline)
 
-`asciidoctor/nabetani/pdf-outline` を require することで有効になる。
-
 テーマの yaml に
 ```
 bookmark:
   include-title-page: false
 ```
 と書くと、表紙はしおりにふくまれないようになる。
-
-
-
-
-
-
-
