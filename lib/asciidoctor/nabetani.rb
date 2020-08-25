@@ -7,6 +7,7 @@ module Asciidoctor
   end
 end
 
+require "asciidoctor-pdf"
 require 'asciidoctor/pdf/cjk/kai_gen_gothic/theme_loader'
 require 'asciidoctor/nabetani/prawn-linewrap-ja'
 require 'asciidoctor/nabetani/abstractblock-xreftext'
