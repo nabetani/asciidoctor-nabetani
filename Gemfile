@@ -9,11 +9,11 @@ gem "asciidoctor", "2.0.10"
 gem "asciidoctor-pdf", "1.5.3"
 gem "prawn", "2.2.2"
 gem "prawn-table", "0.2.2"
-gem 'asciidoctor-pdf-cjk-kai_gen_gothic'
 
 group :development do
   gem 'pry'
   gem 'pry-doc'
   gem 'debase'
   gem 'ruby-debug-ide'
+  gem 'asciidoctor-pdf-cjk-kai_gen_gothic'
 end

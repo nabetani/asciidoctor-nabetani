@@ -30,6 +30,7 @@ task :pdf_funcs_org do
   cmd = %W[
     asciidoctor-pdf
     -r asciidoctor-pdf-cjk-kai_gen_gothic
+    -r asciidoctor/pdf/cjk/kai_gen_gothic/theme_loader
     sample/funcs/index.adoc
     -o sample/funcs_org.pdf
   ]
@@ -41,6 +42,7 @@ task :pdf_small_org do
   cmd = %W[
     asciidoctor-pdf
     -r asciidoctor-pdf-cjk-kai_gen_gothic
+    -r asciidoctor/pdf/cjk/kai_gen_gothic/theme_loader
     sample/small/index.adoc
     -o sample/small_org.pdf
   ]
