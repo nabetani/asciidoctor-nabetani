@@ -87,7 +87,7 @@ GEM
     treetop (1.6.10)
       polyglot (~> 0.3)
     ttfunk (1.5.1)
-    yard (0.9.25)
+    yard (0.9.35)
 
 PLATFORMS
   ruby
